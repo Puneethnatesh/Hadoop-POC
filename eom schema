@@ -1,0 +1,28 @@
+ describe web;
++-----------+--------------+------+-----+---------+-------+
+| Field     | Type         | Null | Key | Default | Extra |
++-----------+--------------+------+-----+---------+-------+
+| ipaddress | varchar(20)  | YES  |     | NULL    |       |
+| ssoid     | int(20)      | YES  |     | NULL    |       |
+| time      | varchar(30)  | YES  |     | NULL    |       |
+| detail    | varchar(500) | YES  |     | NULL    |       |
+| mem1      | varchar(50)  | YES  |     | NULL    |       |
+| mem2      | varchar(50)  | YES  |     | NULL    |       |
++-----------+--------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> describe app;
++----------+---------------+------+-----+---------+-------+
+| Field    | Type          | Null | Key | Default | Extra |
++----------+---------------+------+-----+---------+-------+
+| time     | text          | YES  |     | NULL    |       |
+| status1  | varchar(20)   | YES  |     | NULL    |       |
+| status2  | varchar(20)   | YES  |     | NULL    |       |
+| domain   | varchar(100)  | YES  |     | NULL    |       |
+| app      | varchar(100)  | YES  |     | NULL    |       |
+| thread   | varchar(1000) | YES  |     | NULL    |       |
+| status3  | varchar(30)   | YES  |     | NULL    |       |
+| threadid | varchar(30)   | YES  |     | NULL    |       |
+| bea      | varchar(30)   | YES  |     | NULL    |       |
+| detail   | varchar(1000) | YES  |     | NULL    |       |
++----------+---------------+------+-----+---------+-------+
