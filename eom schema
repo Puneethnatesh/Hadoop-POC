@@ -1,4 +1,6 @@
- describe web;
+eom Web:
+----------
+
 +-----------+--------------+------+-----+---------+-------+
 | Field     | Type         | Null | Key | Default | Extra |
 +-----------+--------------+------+-----+---------+-------+
@@ -9,8 +11,9 @@
 | mem1      | varchar(50)  | YES  |     | NULL    |       |
 | mem2      | varchar(50)  | YES  |     | NULL    |       |
 +-----------+--------------+------+-----+---------+-------+
-6 rows in set (0.00 sec)
 
+eom App:
+---------
 mysql> describe app;
 +----------+---------------+------+-----+---------+-------+
 | Field    | Type          | Null | Key | Default | Extra |
@@ -26,3 +29,33 @@ mysql> describe app;
 | bea      | varchar(30)   | YES  |     | NULL    |       |
 | detail   | varchar(1000) | YES  |     | NULL    |       |
 +----------+---------------+------+-----+---------+-------+
+
+Node Config:
+------------
+ describe App1;
++------------------------------+--------------+------+-----+---------+-------+
+| Field                        | Type         | Null | Key | Default | Extra |
++------------------------------+--------------+------+-----+---------+-------+
+| time                         | datetime     | YES  |     | NULL    |       |
+| server                       | varchar(100) | YES  |     | NULL    |       |
+| MemoryUtilization            | float(8,2)   | YES  |     | NULL    |       |
+| Memoryutilizationpagespersec | int(11)      | YES  |     | NULL    |       |
+| virtualmemory                | float(8,2)   | YES  |     | NULL    |       |
+| physicalmemory               | float(8,2)   | YES  |     | NULL    |       |
+| CPU1                         | float(4,2)   | YES  |     | NULL    |       |
+| CPU2                         | float(4,2)   | YES  |     | NULL    |       |
+| CPU3                         | float(4,2)   | YES  |     | NULL    |       |
+| CPU4                         | float(4,2)   | YES  |     | NULL    |       |
+| CPU5                         | float(4,2)   | YES  |     | NULL    |       |
+| CPU6                         | float(4,2)   | YES  |     | NULL    |       |
+| CPU7                         | float(4,2)   | YES  |     | NULL    |       |
+| CPU8                         | float(4,2)   | YES  |     | NULL    |       |
+| CPU9                         | float(4,2)   | YES  |     | NULL    |       |
+| CPU10                        | float(4,2)   | YES  |     | NULL    |       |
+| CPU11                        | float(4,2)   | YES  |     | NULL    |       |
+| CPU12                        | float(4,2)   | YES  |     | NULL    |       |
+| CPU13                        | float(4,2)   | YES  |     | NULL    |       |
+| CPU14                        | float(4,2)   | YES  |     | NULL    |       |
+| CPU15                        | float(4,2)   | YES  |     | NULL    |       |
+| CPU16                        | float(4,2)   | YES  |     | NULL    |       |
++------------------------------+--------------+------+-----+---------+-------+
